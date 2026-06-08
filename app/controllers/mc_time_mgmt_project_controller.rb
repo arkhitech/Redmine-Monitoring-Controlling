@@ -1,5 +1,4 @@
 class McTimeMgmtProjectController < ApplicationController
-  unloadable
 
   layout 'base'
   before_action :find_project, :authorize
